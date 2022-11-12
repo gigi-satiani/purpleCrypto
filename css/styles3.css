@@ -1,0 +1,480 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.customerCareParent {
+    background: url(/images2/articleRatingimg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 60px;
+    padding-top: 50px;
+}
+.customerCare {
+    display: flex;
+    width: 100%;
+}
+.cutomer {
+    display: flex;
+    padding-top: 90px;
+    margin-top: 60px;
+    width: 100%;
+    justify-content: center;
+    gap: 160px;
+}
+
+.customerH5 {
+    background: #081b5e;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: #37a3fe;
+    padding: 20px;
+    width: 200px;
+    z-index: 1;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.customerH1 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #fff;
+    line-height: 1.2;
+    margin: 25px 0 25px 0;
+}
+.customerParagraph, .customerParagraph2 {
+    color: #fff;
+    font-size: 18px;
+    margin: 15px 0 30px;
+    font-weight: 200;
+    font-family: sans-serif;
+}
+.customerbtn {
+    width: 35%;
+    padding: 20px;
+    font-size: 17px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background: linear-gradient(to left, transparent 50%, #fff 50%);
+    background-position: right;
+    background-size: 200%;
+    transition: all 0.5s ease-out 0s;
+    background-color: #007bff;
+}
+.customerbtn:hover {
+    background-position: left;
+    color: #007bff;
+}
+.imageFigure img {
+    width: 100%;
+}
+/*------------ service section ------------*/
+
+.serviceSectionParent {
+    background: url(/images2/serviceSectionImg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 60px;
+    padding-top: 50px;
+}
+.serviceRating {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.serviceH5 {
+    background: #081b5e;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: #37a3fe;
+    padding: 20px;
+    width: 200px;
+    z-index: 1;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.serviceH1 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #fff;
+    line-height: 1.2;
+    margin: 10px 0 20px 0;
+}
+.serviceP {
+    color: rgb(154, 147, 147);
+    font-size: 18px;
+    margin: 15px 0 30px;
+    font-weight: 200;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/*------- service cards ----*/
+
+.servicePayCards {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 60%;
+}
+.serviceSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+}
+.serviceCard {
+    position: relative;
+    width: 100%;
+    flex: 50%;
+    padding: 15px;
+}
+.serviceCard:hover {
+    box-shadow: 6px 0 21px rgb(0 0 0 / 25%);
+    transition: .5s;
+    background: -webkit-linear-gradient(-9deg, #2A0365 30%, #03224A 70%);
+}
+.singeCard {
+    display: flex;
+    position: relative;
+    padding: 30px 30px 20px;
+    right: 0;
+    background: rgb(35,24,117,0.3);
+    box-shadow: 6px 0 21px rgb(0 0 0 / 14%);
+    transition: .5s;
+    text-align: left!important;
+    z-index: 1;
+    gap: 50px;
+}
+
+
+.singeCard:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.singeCard::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background: rgb(29,7,66);
+    background: linear-gradient(90deg, rgba(29,7,66,1) 31%, rgba(9,8,75,1) 59%);
+    transition: transform .8s ease;
+    z-index: -1;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+}
+
+
+
+
+.singlecardText h3{
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.singlecardText p {
+    color: rgb(154, 147, 147);
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+.singleCardImg {
+    /* width: 100%; */
+    transform-style: preserve-3d;
+    transition: transform .7s ease-in-out;
+}
+.singleCardImg:hover {
+    transform: 0.9;
+    transform: rotateY(180deg);
+}
+
+/*------------ big table ---------*/
+
+/*------ table text -----*/ 
+.bigTableParent {
+    background: url(/images2/tableListBGI.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bigTable {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 60%;
+}
+.tableTextDiv {
+    width: 35%;
+    text-align: left;
+}
+.tableTextDiv h2 {
+    margin: 0 0 15px;
+    font-size: 30px;
+    color: #fff;
+    font-family: sans-serif;
+}
+.tableTextDiv span {
+    font-family: sans-serif;
+    height: 35px;
+    width: 100px;
+    background: #072B4D;
+    text-align: center;
+    line-height: 33px;
+    color: #63BCC2;
+    float: left;
+}
+.tableTextDiv p {
+    color: #fff;
+    display: block;
+    margin-right: 40px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+/*------ table text -----*/ 
+
+.javascriptSelectDiv {
+    display: none;
+}
+.tableInput {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    padding-bottom: 30px;
+}
+.tableInput label input {
+    padding: 10px 30px;
+    border:  2px solid #332269;
+    background: transparent;
+    outline: none;
+    color: rgb(74, 19, 133);
+    border-radius: 4px;
+}
+/*----------  table body -------*/
+.tableBody {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: sans-serif;
+    width: 100%;
+}
+.tableBody th {
+    border: 1px solid #332269;
+    z-index: 1;
+    padding: 10px;
+    text-align: left; 
+    margin-left: 5px;
+}
+.tableBody td {
+    border: 1px solid #332269;
+    padding: 8px 0px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.centeringTable {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tableBody span {
+    margin-left: 16px;
+    float: right;
+    color: rgb(123, 121, 121);
+}
+.tableBody span a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+
+/*------------- strategy and roadmap ----------*/
+
+.strategyRoadmapParent {
+    background: url(/images2/imageAFTERtable.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.strategyRoadmap {
+    width: 60%;
+}
+
+/*--------- strategy text div --------*/
+
+.strategyTextParent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.strategyH5 {
+    background: #081b5e;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #37a3fe;
+    padding: 14px;
+    width: 170px;
+    z-index: 1;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.strategyh1 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #fff;
+    line-height: 1.2;
+    margin: 10px 0 20px 0;
+}
+.strategyP {
+    color: rgb(154, 147, 147);
+    font-size: 18px;
+    margin: 15px 0 30px;
+    font-weight: 200;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/*--------- strategy bouncing moon --------*/
+
+.strategyBouncingMoono {
+    width: 15%;
+    position: relative;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    animation-name: bouncerSnake;
+    animation-timing-function: ease;
+    position: absolute;
+    bottom: 75%;
+    right: 75%;
+}
+.strategyBouncingMoono img {
+    width: 80%;
+}
+/*-----metro img---*/
+.trainRoadMapImg {
+    width: 55%;
+    position: absolute;
+    text-align: center;
+    /* z-index: -1; */
+}
+.trainRoadMapImg img {
+    width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+/*------------- cards first row ---------*/
+
+
+.RoadMapCard {
+    padding: 60px 0 30px 0;
+    text-align: center;
+    display: flex;
+    gap: 100px;
+}
+.roadMapCardHeading {
+    margin: 15px 0 15px 40px;
+    width: 210px;
+    text-align: center;
+    z-index: 1;
+}
+.roadMapCardHeading :hover {
+    background-position: left;
+}
+.RoadMapCardSpan {
+    color: #fff;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.RoadMapCardH4 {
+    color: #fff;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.RoadMapCardH3P h3 {
+    color: #fff;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: rgb(164, 161, 161);
+}
+.RoadMapCardH3P p {
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: rgb(164, 161, 161);
+}
+.cardBackgroundDiv {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0 15px 0;
+    line-height: 30px;
+    font-family: sans-serif;
+    border-radius: 5px;
+    background: linear-gradient(to left, #0B2D6D 50%, #007bff 50%);
+    background-position: right;
+    background-size: 200%;
+    transition: all 0.5s ease-out 0s;
+    z-index: 1;
+}
+
+/*--------- cards second row ----------*/
+.middleCardsParent {
+    padding: 70px 0 0 0;
+}
+.middleCards {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.bottomCardsParent {
+    padding: 70px 0 0 0;
+}
+.bottomCards {
+    align-items: center;
+    padding: 60px 0 30px 0;
+    text-align: center;
+    display: flex;
+    gap: 100px;
+}

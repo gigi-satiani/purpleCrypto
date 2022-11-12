@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*---------- rotator section ---------*/
+
+@media screen and (max-width: 767px) {
+    .headerMenu, .headerSearchButton, .getTokenButton, br {
+        display: none;
+    }
+    .headerNavigation {
+        justify-content: space-between;
+    }
+    .headerLogo {
+        width: 50%;
+    }
+    .hiddenMenu {
+        font-size: 60px;
+    }
+    .snakeFigure, .img1, .img2, .bouncingImage, .spliterRow, .trainRoadMapImg, .graphcenter, .graphcenter2 {
+        display: none;
+    }
+    .rotatorDiv {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cryptoRotatorSection {
+        display: block;
+        padding-top: 50px;
+        margin: 0%;
+        padding: 10px;
+    }
+    .cryptoDiv {
+        width: 100%;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+    .cryptoDiv h4 {
+        text-align: center;
+        width: 90%;
+    }
+    .articleButtonDiv {
+        gap: 0;
+        justify-content: space-between;
+    }
+    .articleButtonDiv .btn-1, .articleButtonDiv .btn-2 {
+        width: 180px;
+    }
+    .rotation {
+        width: 90%;
+    }
+    .img3 {
+        position: relative;
+        width: 100%;
+        position: initial;
+    }
+    .countdownDiv {
+        left: 1%;
+        bottom: -27%;
+        width: 280px;
+        top: initial;
+    }
+    .cardRow {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+    .cardBitcoin, .tokenCard {
+        width: 90%;
+    }
+    .coinBuildingTransfer {
+        flex-direction: column;
+    }
+    .coinBuilding {
+        width: 100%;
+    }
+    .tokenRatingCardsParent {
+        flex-direction: column;
+        align-items: center;
+    }
+    .cutomer {
+        flex-direction: column;
+    }
+    .articleParent {
+        padding: 10px;
+    }
+    .customerbtn {
+        width: 200px;
+    }
+    .articleParent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .serviceSection {
+        padding-top: 0;
+    }
+    .servicePayCards {
+        width: 95%;
+    }
+    .serviceCard {
+        flex: none;
+    }
+    .singeCard {
+        padding: 10px;
+        border-radius: 10px;
+        gap: 0;
+    }
+    .bigTableParent {
+        align-items: baseline;
+    }
+    .bigTable {
+        padding-left: 10px;
+        width: 100%;
+    }
+    .tableTextDiv {
+        width: 100%;
+    }
+    .tableTextDiv p {
+        text-align: initial;
+        padding-top: 10px;
+    }
+    .tableTextDiv span {
+        float: none;
+        padding: 10px;
+    }
+    .table {
+        width: 95%;
+    }
+    tbody :nth-child(3) {
+        display: none;
+    }
+    tbody :nth-child(4) {
+        display: none;
+    }
+    tbody :nth-child(5) {
+        display: none;
+    }
+    .strategyRoadmap {
+        width: 100%;
+    }
+    .strategyh1 {
+        font-size: 14px;
+    }
+    .RoadMapCard, .middleCards, .bottomCards {
+        flex-direction: column;
+        gap: 0;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+    }
+    .roadMapCardHeading {
+        width: 80%;
+    }
+    .middleCardsParent, .bottomCardsParent {
+        padding: 0;
+    }
+    .graphsMain {
+        width: 95%;
+        border-radius: 10px;
+    }
+    .graphsTextAndBtn {
+        display: block;
+    }
+    .graphH1 {
+        font-size: 17px;
+    }
+    .graphImages {
+        display: block;
+    }
+    .imageDiv1Parent, .imageDiv1 {
+        width: 100%;
+    }
+    .imageDiv1 figure, .imageDiv1 figure img {
+        width: 100%;
+    }
+    .graphUlParent, .graphUlParent2  {
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+        width: 100%;
+    }
+    .imageDiv1Parent2, .imageDiv, .twondGraphFigure, .twondGraphFigure img {
+        width: 100%;
+    }
+    .mobileArticleParent {
+        padding-top: 0;
+    }
+    .mobileArticle {
+        width: 95%;
+        display: block;
+    }
+    .mobileTextsParent {
+        width: 100%;
+    }
+    .textsH2, .textsP {
+        font-size: 17px;
+        text-align: center;
+    }
+    .textsH2 br {
+        display: none;
+    }
+    .textsButton {
+        display: flex;
+    }
+    .mobileImg {
+        width: 100%;
+    }
+    .bigMobileImg {
+        position: initial;
+        width: 100%;
+    }
+    .bigMobileImg img {
+        width: 100%;
+    }
+    .smallBimg {
+        right: 0;
+        bottom: 0;
+    }
+    .smallBimg img {
+        width: 100%;
+    }
+    .teenagersCardsParent {
+        padding-top: 0;
+        background-size: contain;
+    }
+    .teenagersCards {
+        width: 90%;
+    }
+    .teenTextH1 {
+        font-size: 17px;
+    }
+    .teenagerCardDiv {
+        flex-direction: column;
+    }
+    .singeTeenCardParent, .singeTeenCard, .cardImage, .cardImage img {
+        width: 100%;
+    }
+    .cardImage::before {
+        display: none;
+    }
+    .cardTextUl ul {
+        justify-content: center;
+        gap: 10px;
+    }
+    .faqSectionParent {
+        padding-top: 0;
+        background-size: contain;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .faqSection {
+        width: 90%;
+    }
+    .faqTextH1 {
+        font-size: 15px;
+    }
+    .faqUl {
+        font-size: 15px;
+        gap: 0;
+    }
+    .faqImageParent {
+        display: block;
+    }
+    .faqImageText {
+        width: 100%;
+        justify-content: center;
+    }
+    .faqImgUl {
+        width: 95%;
+    }
+    .faqImageUl {
+        font-size: 15px;
+    }
+    .faqImageImg, .faqimageContainer {
+        width: 100%;
+    }
+    .inputTextsH1 {
+        font-size: 15px;
+    }
+    .inputSectionContacts {
+        width: 70%;
+    }
+    .inputContacts {
+        display: block;
+    }
+    .inputDivParent {
+        width: 100%;
+    }
+    .nameAndMailInputs, .phoneAndWebsiteInputs {
+        gap: 0;
+        display: block;
+    }
+    .formSubmitButton button {
+        width: 50%;
+    }
+    .nameInput, .emailInput, .phoneInput, .websiteInput, .inputsTextarea {
+        width: 100%;
+    }
+    .nameInput input, .emailInput input, .phoneInput input,
+    .websiteInput input, .inputsTextarea textarea {
+        width: 90%;
+    }
+    .footerListsParent {
+        flex-direction: column;
+        gap: 50px;
+        width: 80%;
+    }
+    .list1LogoAndP {
+        width: 100%;
+        text-align: center;
+    }
+    .list1logo img {
+        width: 50%;
+    }
+    .list1P br {
+        display: none;
+    }
+    .list1H3 {
+        text-align: center;
+    }
+    .list1Ul li {
+        font-size: 18px;
+        border-radius: 10px;
+    }
+    .footerInput {
+        border-bottom-left-radius: 0;
+    }
+    .footerForm button {
+        border-top-right-radius: 0;
+    }
+    .footerCopyright {
+        width: 90%;
+        flex-direction: column;
+    }
+    .termsPolicyUl ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

@@ -1,0 +1,412 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.graphsMainParent {
+    background: url(/images3/000.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.graphsMain {
+    width: 60%;
+}
+.graphsTextAndBtn {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.graphH1 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #fff;
+    line-height: 1.2;
+    margin: 10px 0 20px 0;
+}
+.graphBtn {
+    width: 190px;
+    padding: 20px;
+    font-size: 17px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background: linear-gradient(to left, transparent 50%, #fff 50%);
+    background-position: right;
+    background-size: 200%;
+    transition: all 0.5s ease-out 0s;
+    background-color: #007bff;
+}
+.graphBtn:hover {
+    background-position: left;
+    color: #007bff;
+}
+
+/*------------ graph images ----------*/
+
+.graphImages {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+.imageDiv1Parent {
+    width: 50%;
+}
+.imageDiv1Parent2 {
+    width: 50%;
+    background-color: #0D3151;
+}
+.imageDiv2Parent {
+    width: 50%;
+}
+.imageDiv {
+    padding-top: 20px;
+}
+.imageDiv1 {
+    position: relative;
+    background: #062663;
+    padding-top: 20px;
+}
+.imageDiv1 figure {
+    position: relative;
+}
+.twondGraphFigure {
+    position: relative;
+}
+.imageDiv1 figure .graphcenter {
+    position: absolute;
+    right: 39%;
+    top: 42%;
+}
+.graphcenter2 {
+    position: absolute;
+    right: 37%;
+    bottom: 32%;
+}
+/*----- graph UL ----*/
+
+.graphUlParent {
+    display: flex;
+    padding: 30px 44px;
+    justify-content: space-between;
+    background: #062663;
+}
+.graphUlParent2 {
+    display: flex;
+    padding: 30px 44px;
+    justify-content: space-between;
+    background-color: #0D3151;
+}
+.graphUlParent ul li {
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-bottom: 16px;
+    list-style: none;
+    position: relative;
+    color: #a2bbd2;
+}
+.graphUlParent2 ul li {
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-bottom: 16px;
+    list-style: none;
+    position: relative;
+    color: #a2bbd2;
+}
+.graphUlParent ul li:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: -27px;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background: #AA3BC5;
+}
+.graphUlParent2 ul li:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: -27px;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background: #AA3BC5;
+}
+.graphUlParent ul li.anotherLi2:before {
+    background: #1ED4A4;
+}
+.graphUlParent2 ul li.anotherLi2:before {
+    background: #1ED4A4;
+}
+.graphUlParent ul li.anotherLi3:before {
+    background: #F97431;
+}
+.graphUlParent2 ul li.anotherLi3:before {
+    background: #F97431;
+}
+
+/*----------- bouncing mobile ---------*/
+
+.mobileArticleParent {
+    background: url(/images3/bouncingMobileimg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.mobileArticle {
+    display: flex;
+    width: 60%;
+    position: relative;
+    border-radius: 10px;
+    background: url(/images3/mobileArticleBackground.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 45px;
+
+}
+.mobileTextsParent {
+    width: 50%;
+}
+/*------mobile article text------*/
+.textsH2 {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    line-height: 1.3;
+    color: #fff;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+.textsP {
+    font-size: 18x;
+    font-family: sans-serif;
+    color: #a2bbd2;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.textsButton {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.mobileButton1 {
+    width: 200px;
+    height: 60px;
+    background: url(/logos3/mobilebtnAPPstore.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    cursor: pointer;
+    border: none;
+}
+.mobileButton2 {
+    width: 200px;
+    height: 60px;
+    background: url(/logos3/mobilebtnPlayStore.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    cursor: pointer;
+    margin-left: 15px;
+    border: none;
+}
+/*---------mobile image-------*/
+.mobileImg {
+    width: 50%;
+}
+.bigMobileImg {
+    position: absolute;
+    animation-name: bouncerSnake;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    bottom: 0;
+}
+.bigMobileImg img {
+    vertical-align: middle;
+    border-style: none;
+}
+.smallBimg {
+    position: absolute;
+    right: 35%;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    animation-timing-function: ease;
+    animation-name: rotator;
+    
+}
+@keyframes rotator {
+    0% {
+        transform: scaleX(-1);
+      }
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+/*------------- teenager section --------------*/
+
+.teenagersCardsParent {
+    background: url(/images3/teenagersbackimage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.teenagersCards {
+    width: 60%;
+}
+.teenagersTexts {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.teenTextH5 {
+    background: #081b5e;
+    border-radius: 5px;
+    font-size: 23px;
+    font-family: sans-serif;
+    color: #37a3fe;
+    padding: 15px;
+    width: 200px;
+    z-index: 1;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.teenTextH1 {
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+}
+.teenTextP {
+    color: rgb(154, 147, 147);
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 1.4;
+    margin: 10px 0 10px 0;
+}
+
+/*------ teenagerCard ------*/
+
+.teenagerCardDiv {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+}
+.singeTeenCardParent {
+    transition: .3s ease-in-out;
+}
+.singeTeenCardParent:hover {
+    transform: translateY(-15px);
+}
+
+
+
+.cardImage::before {
+    transform: scaleX(0);
+    transform-origin: bottom right;
+}
+.cardImage:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.cardImage::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background: #007bff;
+    transition: transform .8s ease;
+    z-index: -1;
+}
+
+
+
+.cardText {
+    background: #0A2D6D;
+    text-align: center;
+    width: 100%;
+    position: inherit;
+    padding: 35px 0 40px;
+    border-radius: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.cardText h3 {
+    font-size: 20px;
+    color: #fff;
+    font-family: sans-serif;
+    margin: 0 0 15px 0;
+}
+.cardText span {
+    font-size: 17px;
+    color: rgb(126, 118, 118);
+    font-family: sans-serif;
+}
+.cardTextUl ul {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 12px;
+}
+.cardTextUl li {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 400;
+    background: #23407A;
+    padding: 13px 19px;
+    border-radius: 7px;
+}
+.cardTextUl li:hover {
+    background: #007bff;
+}
+.cardTextUl li a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+.IconFooterParent {
+    width: 100%;
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+}
+.IconFooter {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 30px;
+}
+.Iconarrow a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 19px;
+    font-family: sans-serif;
+    word-spacing: 5px;
+}

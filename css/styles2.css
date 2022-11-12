@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cardsParentDiv {
+    background: url(/images/sectionLine.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    margin-top: 15%;
+}
+.cardRow {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 30px;
+}
+.cardBitcoin {
+    margin-top: 50px;
+    background: #09185E;
+    position: relative;
+    z-index: 1;
+    padding: 29px 29px 29px;
+    border-radius: 5px;
+    width: 370px;
+    height: 210px;
+}
+.cardBitcoinImages {
+    vertical-align: middle;
+    border-style: none;
+}
+.cardBitcoin::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    width: 0;
+    transition: .5s;
+    border-radius: 4px;
+    z-index: -1;
+    background: -webkit-linear-gradient(-9deg, #0A2C56 0%, #441459 97%);
+}
+.cardImg2 {
+    float: right;
+}
+.cardBitcoinContent {
+    margin-top: 20px;
+    line-height: 30px;
+}
+.cardBitcoinContent span {
+    font-size: 18px;
+    color: #486178;
+    margin: 0;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.cardBitcoinContent h3 {
+    margin: 13px 0 0;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: #fff;
+}
+.cardBitcoinContent p {
+    float: right;
+    bottom: 25px;
+    position: relative;
+    color: #486178;
+    font-family: sans-serif;
+    font-size: 18px
+}
+
+/*---------- About crypto ICO ---------*/
+
+.aboutCryptoIcoParent {
+    width: 100%;
+}
+.cryptoIcoTitle {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 50px;
+}
+.cryptoTitleH5 {
+    font-size: 18px;
+    color: #37a3fe;
+    font-weight: 500;
+    z-index: 1;
+    background: #081b5e;
+    padding: 11px 30px;
+    font-family: sans-serif;
+    border-radius: 5px;
+    width: 180px;
+    padding: 15px;
+}
+.cryptoTitleH5 img {
+    margin-right: 20px;
+}
+.cryptoTitleH1 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #fff;
+    line-height: 1.2;
+    text-align: center !important;
+}
+.cryptoTitleP {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+    line-height: 1.5;
+    color: #a2bbd2;
+}
+
+/*--------- bouncing moon --------*/
+
+.bouncingMoon {
+    position: absolute;
+    left: 8%;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    animation-name: bouncerSnake;
+    animation-timing-function: ease;
+}
+
+/*----------- coin building -----------*/
+
+.coinBuildingTransfer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    background: url(/images/buildingBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.coinBuilding {
+    width: 30%;
+}
+.coinBuilding img {
+    width: 100%;
+}
+.spliterRow {
+    margin-top: 10px;
+}
+.moneyTransfer {
+    display: flex;
+    margin: 47px 0 0 30px;
+    gap: 20px;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+/*---------- Token Rating ----------*/
+
+.tokenRatingParent {
+    background: url(/images/cryptoTokenInfoBgi.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tokenRating {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 50px;
+}
+.tokenHeadingparent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ratingHeading {
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    color: #37a3fe;
+    font-weight: 500;
+    z-index: 1;
+    background: #081b5e;
+    padding: 15px 30px;
+    font-family: sans-serif;
+    border-radius: 5px;
+    width: 200px;
+}
+.ratingH1 {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #fff;
+    line-height: 1.2;
+    text-align: center !important;
+    margin: 20px 0 20px 0;
+}
+/*------- token rating cards ------*/
+
+.tokenRatingCardsParent {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.tokenCard {
+    width: 260px;
+    height: 260px;
+    padding-top: 30px;
+    background: rgb(28,25,94,0.6);
+    position: relative;
+    transition: .3s ease-in-out;
+}
+.tokenCard:hover {
+    transform: translateY(-15px);
+}
+.tokenCardChild {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.tokenCardBtn {
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    border: 1px solid#0d3e92;
+    border-radius: 4px;
+    padding: 10px 50px;
+    position: relative;
+    color: #fff;
+    z-index: 1;
+    cursor: pointer;
+    background: linear-gradient(to left, transparent 50%, #fff 50%);
+    background-position: right;
+    background-size: 200%;
+    transition: all 0.5s ease-out 0s;
+}
+.tokenCardBtn:hover {
+    background-position: left;
+    color: #007bff;
+}

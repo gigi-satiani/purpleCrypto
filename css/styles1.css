@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #0B0B47;
+    width: 100%;
+    background: url(/images/section1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    background-position: center center;
+}
+/* ------------ main header ------------- */
+.firstHeader {
+    border-bottom: 2px solid #2D305B;
+}
+.headerParentDiv {
+    padding: 8px;
+}
+.headerNavigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+}
+.headerLogo {
+    /* border: 1px solid red; */
+    width: 13%;
+    margin-right: 110px;
+    padding-bottom: 15px;
+}
+.headerLogo img {
+    width: 100%;
+    cursor: pointer;
+}
+.headerMenu {
+    display: flex;
+    padding: 15px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.headerMenu li {
+    text-decoration: none;
+    list-style: none;
+    margin: 13px;
+    height: 100%;
+}
+.headerMenu li a {
+    letter-spacing: 1px;
+    color: #fff;
+    text-decoration: none;
+    padding: 40px 0;
+}
+.headerMenu li :hover {
+    color: #007bff;
+    transition: all 0.6s ease-out 0s;
+    background-color: transparent;
+}
+/* ------------------ header buttons ---------- */
+
+.getTokenButton {
+    position: relative;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 13px 30px;
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid #535578;
+    border-radius: 30px;
+    background: linear-gradient(to left, transparent 50%, #007bff 50%);
+    background-size: 200%;
+    background-position: right;
+    transition: all 0.3s ease-out 0s;
+}
+.getTokenButton:hover {
+    background-position: left;
+}
+.headerSearchButton {
+    border: none;
+    background: transparent;
+    color: #fff;
+    margin: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.hiddenMenu {
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+/*-------------------- main body --------------*/
+
+.mainBodySection {
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* height: 100%; */
+    flex-direction: column;
+    z-index: 100;
+}
+.cryptoRotatorSection {
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 8%; /*---50% ---*/
+    /* z-index: 1; */
+}
+.cryptoDiv {
+    /* border: 1px solid rgb(22, 165, 32); */
+    width: 40%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+.cryptoDiv h4 {
+    width: fit-content;
+    background: #06206D;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin: 0 0 30px 0;
+    color: #fff;
+}
+.cryptoDiv h4 span {
+    width: 25px;
+    line-height: 25px;
+    text-align: center;
+    background: #37A3FE;
+    display: inline-block;
+    border-radius: 100%;
+    color: #fff;
+    position: relative;
+}
+.cryptoDiv h1 {
+    font-size: 60px;
+    color: #fff;
+    margin: 0 0 15px;
+}
+.cryptoDiv h1 span {
+    color: #007bff;
+}
+.cryptoDiv p {
+    color: #fff;
+    font-size: 16px;
+    margin: 15px 0 30px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.articleButtonDiv {
+    /* border: 1px solid green; */
+    text-align: center;
+    display: flex;
+    justify-content: left;
+    width: 90%;
+    gap: 40px;
+}
+.articleButtonDiv .btn-1 {
+    width: 30%;
+    padding: 15px 10px;
+    font-size: 17px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background: linear-gradient(to left, transparent 50%, #fff 50%);
+    background-position: right;
+    background-size: 200%;
+    transition: all 0.5s ease-out 0s;
+    background-color: #007bff;
+}
+.articleButtonDiv .btn-1:hover {
+    background-position: left;
+    color: #007bff;
+}
+.articleButtonDiv .btn-1 span {
+    font-weight: lighter;
+    font-size: 23px;
+}
+.articleButtonDiv .btn-2 {
+    width: 30%;
+    padding: 15px 10px;
+    font-size: 17px;
+    color: #fff;
+    border: 1px solid gray;
+    border-radius: 4px;
+    cursor: pointer;
+    background: linear-gradient(to left, transparent 50%, #fff 50%);
+    background-size: 200%;
+    background-position: right;
+    transition: all 0.5s ease-out 0s;
+    background-color: transparent;
+}
+.btnSpan {
+    color: #fff;
+    background-color: #37A3FE;
+    border-radius: 50px;
+}
+.articleButtonDiv .btn-2:hover {
+    background-position: left;
+    color: #007bff;
+}
+.articleButtonDiv .btn-2 span {
+    font-weight: lighter;
+    font-size: 23px;
+    overflow: hidden;
+}
+
+
+/*------------ANIMATIONS rotation & bounce--------*/
+
+.rotatorDiv {
+    width: 21%;
+}
+
+.img1 {
+    position: absolute;
+    bottom: 8%;
+    left: 54%;
+    animation: rotation1 10s infinite linear;
+}
+.img2 {
+    position: absolute;
+    top: 26%;
+    left: 57.5%;
+    animation: rotation2 10s infinite linear;
+}
+.img3 {
+    position: absolute;
+    left: 60%;
+    top: 31%;
+}
+@keyframes rotation1 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+@keyframes rotation2 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.token {
+    position: absolute;
+    left: 80%;
+    bottom: 65%;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    animation-name: bouncer;
+    animation-timing-function: ease;
+}
+@keyframes bouncer {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(50px); }
+    100% { transform: translateY(0); }
+}
+.bsLogo {
+    position: absolute;
+    right: 40%;
+    top: 30%;
+}
+.bigBlogo {
+    position: absolute;
+    left: 82%;
+    top: 78%;
+}
+.snakeFigure img {
+    position: absolute;
+    right: 78%;
+    top: 48%;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    z-index: -1;
+}
+.bouncerSnake {
+    animation-name: bouncerSnake;
+    animation-timing-function: ease;
+}
+@keyframes bouncerSnake {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(30px); }
+    100% { transform: translateY(0); }
+}
+/*----------- count down ----------*/
+.countdownDiv {
+    background: rgb(1,53,126,0.7);
+    width: 18%;
+    height: 170px;
+    z-index: 69;
+    position: absolute;
+    left: 55%;
+    top: 73.5%;
+    border-radius: 10px;
+    text-align: center;
+}
+.timerH4div {
+    margin: 30px 0 15px 0;
+    font-family: sans-serif;
+}
+#countdown {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+#countdown-timer td {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    margin: 3px;
+    border-radius: 5px;
+}
+#countdown-timer p {
+    font-size: 15px;
+}
+
+#countdown-timer td:nth-child(1) {
+    background-color: #37A3FE;
+}
+#countdown-timer td:nth-child(2) {
+    background-color: #47dba7;
+}
+#countdown-timer td:nth-child(3) {
+    background-color: #FFC107;
+}
+#countdown-timer td:nth-child(4) {
+    background-color: #E230CC;
+}

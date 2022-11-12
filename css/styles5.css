@@ -1,0 +1,586 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*----------- Frequently asked Questions section ----------*/
+
+.faqSectionParent {
+    background: url(/images3/faqimage.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.faqSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.faqText {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.faqTextH5 {
+    background: #081b5e;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #37a3fe;
+    padding: 14px;
+    width: 170px;
+    margin-bottom: 20px;
+    word-spacing: 10px;
+}
+.faqTextH1 {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.faqTextP {
+    color: rgb(154, 147, 147);
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 1.4;
+    margin: 10px 0 10px 0;
+}
+/*----faq UL---*/
+.faqSectionMenuDiv {
+    width: 100%;
+}
+.faqSectionMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.faqUl {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style-type: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 200;
+    width: 100%;
+    padding-top: 30px;
+}
+.faqUl li {
+    background-color: #fff;
+    padding: 4px 20px;
+    background: linear-gradient(to left, transparent 50%, #fff 50%);
+    background-size: 200%;
+    background-position: right;
+    transition: all 0.5s ease-out 0s;
+    border-radius: 3px;
+}
+.faqUl li:hover {
+    background-color: #fff;
+}
+.faqUl li a {
+    color: #37a3fe;
+    text-decoration: none;
+}
+/*------- faq section image texts ------*/
+.faqImageParent {
+    width: 100%;
+    display: flex;
+}
+.faqImageText {
+    width: 50%;
+    padding-top: 30px;
+    display: flex;
+    justify-content: right;
+}
+.faqImgUl {
+    width: 55%;
+    padding-top: 25px;
+}
+.faqImageUl {
+    display: flex;
+    flex-direction: column;
+    line-height: 3;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: sans-serif;
+    list-style: none;
+    text-align: left;
+}
+.faqImageUl li {
+    margin-left: 20px;
+}
+.faqImageUl li span {
+    color: #fff;
+    font-weight: lighter;
+    font-size: 20px;
+    float: right;
+}
+.faqImageUl li a {
+    text-decoration: none;
+    color: #37a3fe;
+}
+
+/*------- faq section image  ------*/
+.faqImageImg {
+    width: 50%;
+}
+.faqimageContainer {
+    width: 60%;
+}
+.faqimageContainer img {
+    width: 100%;
+}
+
+/*-------------- INPUT SECTION ---------------*/
+
+.inputSectionParent {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: url(/images3/inputSectionBg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.inputSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.inputSectionTexts {
+    width: 100%;
+}
+.inputTextsParent {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inputTextsH5 {
+    background: #081b5e;
+    border-radius: 5px;
+    font-size: 23px;
+    font-family: sans-serif;
+    color: #37a3fe;
+    padding: 15px;
+    width: 170px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.inputTextsH1 {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+/*----- fax, number divs ----*/
+.inputSectionContacts {
+    width: 70%;
+}
+.inputContacts {
+    display: flex;
+    justify-content: space-evenly;
+}
+.singleContact {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 30px;
+}
+.iconContacts {
+    color: #fff;
+    font-size: 40px;
+    background-color: #37a3fe;
+    border-radius: 40%;
+    padding: 10px;
+    box-shadow: 0px 0px 2px 1px #37a3fe, 0 0px 22px 0 #37a3fe;
+}
+.textContacts {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+/*------- inputs -------*/
+
+.inputSectionInputs {
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inputDivParent {
+    width: 40%;
+}
+.inputSectionForm {
+    width: 100%;
+}
+.nameAndMailInputs {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+.nameInput {
+    width: 48%;
+}
+.nameInput input {
+    width: 100%;
+    height: 58px;
+    padding: 15px 0 15px 25px;
+    background-color: #1E1D56;
+    border-bottom: 1px solid #1E1D56!important;
+    font-family: sans-serif;
+    border: none;
+    margin-bottom: 26px;
+    font-size: 20px;
+    outline: none;
+}
+.emailInput {
+    width: 48%;
+}
+.emailInput input {
+    width: 100%;
+    height: 58px;
+    padding: 15px 0 15px 25px;
+    background-color: #1E1D56;
+    border-bottom: 1px solid #1E1D56!important;
+    font-family: sans-serif;
+    border: none;
+    margin-bottom: 26px;
+    font-size: 20px;
+    outline: none;
+}
+
+.phoneAndWebsiteInputs {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.phoneInput {
+    width: 48%;
+}
+.phoneInput input {
+    width: 100%;
+    height: 58px;
+    padding: 15px 0 15px 25px;
+    background-color: #1E1D56;
+    border-bottom: 1px solid #1E1D56!important;
+    font-family: sans-serif;
+    border: none;
+    margin-bottom: 26px;
+    font-size: 20px;
+    outline: none;
+}
+.websiteInput {
+    width: 48%;
+}
+.websiteInput input {
+    width: 100%;
+    padding: 15px 0 15px 25px;
+    background-color: #1E1D56;
+    border-bottom: 1px solid #1E1D56!important;
+    font-family: sans-serif;
+    font-size: 20px;
+    border: none;
+    margin-bottom: 26px;
+    outline: none;
+}
+
+.inputsTextarea {
+    width: 100%;
+}
+.inputsTextarea textarea {
+    width: 100%;
+    padding: 15px 0 15px 25px;
+    background-color: #1E1D56;
+    border-bottom: 1px solid #1E1D56!important;
+    font-family: sans-serif;
+    border: none;
+    margin-bottom: 26px;
+    font-size: 20px;
+    outline: none;
+}
+.formSubmitButton {
+    width: 100%;
+}
+.formSubmitButton button {
+    width: 250px;
+    padding: 20px;
+    font-size: 17px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background: linear-gradient(to left, transparent 50%, #fff 50%);
+    background-position: right;
+    background-size: 200%;
+    transition: all 0.5s ease-out 0s;
+    background-color: #007bff;
+}
+.formSubmitButton button:hover {
+    background-position: left;
+    color: #007bff;
+}
+
+/*----------------- FOOTER --------------*/
+
+.footerParent {
+    background: url(/images3/footerBackground.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+.footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footerListsParent {
+    display: flex;
+    gap: 100px;
+}
+.list1LogoAndP {
+    padding-bottom: 20px;
+}
+.list1logo {
+    width: 60%;
+    position: relative;
+}
+.list1logo img {
+    width: 100%;
+}
+.list1P {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: rgb(100, 95, 95);
+    line-height: 1.5;
+    margin-top: 20px;
+}
+.list1Socials {
+    display: flex;
+    flex-direction: column;
+}
+.list1H3 {
+    color: #fff;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-bottom: 30px;
+}
+.list1SocialLi {
+    width: 100%;
+}
+.list1Ul {
+    display: flex;
+    gap: 15px;
+    justify-content: space-around;
+}
+.list1Ul li {
+    width: 50px;
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+    background-color: #1E1D56;
+    border-radius: 50%;
+    cursor: pointer;
+    background: linear-gradient(to left, transparent 50%, #1E1D56 50%);
+    background-position: right;
+    background-size: 200%;
+    transition: all 0.5s ease-out 0s;
+    background-color: #007bff;
+    padding: 10px
+}
+.list1Ul li:hover {
+    transition: all 0.6s ease-out 0s;
+    background-color: transparent;
+    background-position: left;
+    color: #007bff;
+}
+.list1Ul li a {
+    color: #fff;
+    list-style: none;
+}
+
+/*----list2----*/
+.footerList2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+}
+.footerList2H3 {
+    color: #fff;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+}
+.list2Ul {
+    list-style-type: none;
+}
+.footerList2Ul {
+    padding-top: 20px;
+    line-height: 2;
+    text-align: left;
+}
+.footerList2Ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #a2bbd2;
+    cursor: pointer;
+    transition: all 0.5s ease-out 0s;
+}
+.footerList2Ul li a:hover {
+    color: #007bff;
+}
+
+/*--- list3 ---*/
+
+.footerList3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+}
+.footerList3H3 {
+    color: #fff;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+}
+.list3Ul {
+    list-style-type: none;
+}
+.footerList3Ul {
+    padding-top: 20px;
+    line-height: 2;
+    text-align: left;
+}
+.footerList3Ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #a2bbd2;
+    cursor: pointer;
+    transition: all 0.5s ease-out 0s;
+}
+.footerList3Ul li a:hover {
+    color: #007bff;
+}
+
+/*--- footer email input ---*/
+
+.footerSearch {
+    width: 100%;
+    padding-top: 20px;
+}
+.footerSearchH3 {
+    color: #fff;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+}
+.footerSearchP {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: rgb(100, 95, 95);
+    line-height: 1.5;
+    margin-top: 20px;
+}
+.footerForm {
+    position: relative;
+    padding-top: 20px;
+}
+.footerInput {
+    background: #1C2960;
+    border: none;
+    padding: 14px 21px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    outline: 0;
+    color: #fff;
+}
+.footerForm button {
+    position: absolute;
+    background: #0194FC;
+    border: none;
+    height: 42px;
+    width: 100px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    outline: 0;
+    cursor: pointer;
+}
+
+/*----- copyright div ----*/
+
+.footerCopyrightParent {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+.footerCopyright {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-top: 1px solid #fff;
+}
+.copyrightP {
+    color: #fff;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 30px 0 0 30px;
+    text-align: center;
+}
+.termsPolicyUl ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding-top: 30px;
+}
+.termsPolicyUl a {
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 16px;
+}
